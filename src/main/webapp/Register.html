@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="register" method="post">
+
+<table>
+<tr> 
+<th>FirstName:</th>
+<td><input type="text" name="first" required="required"></td>
+</tr>
+<tr> 
+<th>LasttName:</th>
+<td><input type="text" name="last" required="required"></td>
+</tr>
+
+
+<tr> 
+<th>Mobile:</th>
+<td><input type="tel" name="mobile" pattern="{0-9}[10]" required="required"></td>
+</tr>
+
+
+<tr> 
+<th>Email:</th>
+<td><input type="email" name="email" required="required"></td>
+</tr>
+
+
+
+
+<tr> 
+<th>Gender:</th>
+<td>
+<input type="radio" name="gender" value="female" required="required">Female
+<input type="radio" name="gender" value="male">Male
+</td>
+</tr>
+
+
+<tr> 
+<th>CreatePassward:</th>
+<td><input type="password" name="password1" id="pass"></td>
+</tr>
+
+<tr> 
+<th>ConfirmPassward:</th>
+<td><input type="password" name="password2" id="cpass"></td>
+</tr>
+
+
+<tr> 
+<th>Date of Birth:</th>
+<td><input type="date" name="dob" required="required"></td>
+</tr>
+
+<tr>
+<td><button type="reset">Cancle</button></td>
+<td><button type="">Register</button></td>
+</tr>
+</table>
+</form>
+<br>
+<a href="Login.html">Already have account?Click here to login</a>
+<br>
+<br>
+<a href="Home.html"><button>Home</button></a>
+</body>
+</html>
